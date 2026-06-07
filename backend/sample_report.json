@@ -1,0 +1,31 @@
+{
+  "appName": "Sample Calculator",
+  "packageName": "com.example.calculator",
+  "version": "1.0.0",
+  "targetSdk": 35,
+  "riskScore": 0,
+  "riskLevel": "Low",
+  "examinerName": "Ridzuan",
+  "caseReference": "CASE-001",
+  "notes": "Sample report for backend testing.",
+  "forensicEvidence": {
+    "evidenceSource": "installed_app",
+    "apkSha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "apkSizeBytes": 12345678,
+    "sourcePath": "/data/app/example/base.apk",
+    "installerPackage": "com.android.vending",
+    "firstInstallTime": "2026-06-04T08:00:00Z",
+    "lastUpdateTime": "2026-06-04T08:30:00Z",
+    "splitApkCount": 0,
+    "dexCount": 1,
+    "nativeLibCount": 0,
+    "nativeLibraries": [],
+    "httpUrls": [],
+    "secretSignals": [],
+    "trackerSignals": [],
+    "networkConfigFiles": [],
+    "backupRuleFiles": [],
+    "signingFiles": ["META-INF/CERT.RSA"]
+  },
+  "findings": []
+}
