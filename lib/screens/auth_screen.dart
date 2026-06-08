@@ -25,7 +25,7 @@ class _AuthScreenState extends State<AuthScreen> {
   static const _prefs = MethodChannel('mysecure/preferences');
 
   final baseUrlController = TextEditingController(
-    text: 'http://172.20.10.2:8000',
+    text: 'https://secure-droid.onrender.com',
   );
   final nameController = TextEditingController();
   final emailController = TextEditingController();
